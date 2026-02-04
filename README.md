@@ -1,31 +1,57 @@
 # Cache System Project
 
-A real-time cache system for student records using Python, Flask, and Redis.
-
 ## Team Members
+
 - Akpan Basil Bassey
 - Anubiri Chika Anselem
 
-## Project Goal
-To design and implement a cache system that improves data retrieval performance.
+## Description
 
-## Status Log
-### Phase 1: Project Setup
-- [x] Created project folder structure
-- [x] Initialized Git repository
-- [x] Created README.md
-- [x] Made first Git commit
+This project demonstrates a cache system using Flask and Redis
+to optimize database access and improve performance.
 
-### Phase 2: Backend Environment & Flask Setup
-- [x] Created Python virtual environment
-- [x] Activated venv in Git Bash
-- [x] Upgraded pip
-- [x] Installed Flask & Flask-CORS
-- [x] Created minimal Flask app (`app.py`)
-- [x] Ran server successfully in browser
-- [x] Made Git commit
+## Technologies
 
-### Phase 3: Fake Database & First API Endpoint
-- [x] Created `database.py` with sample student records
-- [x] Implemented first API endpoint `/student/<id>`
-- [x] Tested API in Postman / Browser
+- Python (Flask)
+- Redis
+- HTML, CSS, JavaScript
+- Git & GitHub
+
+## Features
+
+- Cache-aside strategy
+- TTL expiration
+- LRU eviction
+- Redis external cache
+- Real-time dashboard
+- Performance monitoring
+
+## Project Phases
+
+- Phase 1: Setup ✔
+- Phase 2: Environment ✔
+- Phase 3: Database ✔
+- Phase 4: In-Memory Cache ✔
+- Phase 5: Redis + LRU ✔
+- Phase 6: Frontend ✔
+
+## How to Run
+
+### 1. Start Redis
+
+redis-server
+
+### 2. Start Backend
+
+source venv/Scripts/activate
+python app.py
+
+### 3. Open Frontend
+
+Open frontend/index.html in browser
+
+## API Endpoints
+
+- GET /student/<id>
+- GET /stats
+- GET /clear
