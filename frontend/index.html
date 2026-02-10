@@ -1,0 +1,40 @@
+<!-- Author: Anubiri Chika Anselem -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cache System Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Cache System Dashboard</h1>
+
+<div class="container">
+
+    <div class="card">
+        <h3>Get Student</h3>
+        <input type="number" id="studentId" placeholder="Enter ID">
+        <button onclick="getStudent()">Fetch</button>
+
+        <pre id="result"></pre>
+    </div>
+
+    <div class="card">
+        <h3>Cache Stats</h3>
+        <button onclick="getStats()">Refresh</button>
+        <pre id="stats"></pre>
+    </div>
+
+    <div class="card">
+        <h3>Cache Control</h3>
+        <button onclick="clearCache()">Clear Cache</button>
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
+
