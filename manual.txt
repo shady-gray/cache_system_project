@@ -1,0 +1,7 @@
+CACHING SYSTEM
+
+A simulator for a Caching SYSTEM
+
+Contributors: 
+    - Akpan Basil Bassey
+    - Anubiri Chika Anselem
